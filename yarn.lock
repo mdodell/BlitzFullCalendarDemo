@@ -4204,6 +4204,14 @@
   dependencies:
     "once" "^1.4.0"
 
+"enhanced-resolve@^5.7.0":
+  "integrity" "sha512-6njwt/NsZFUKhM6j9U8hzVyD4E4r0x7NQzhTCbcWOJ0IQjNSAoalWmb0AE51Wn+fwan5qVESWi7t2ToBxs9vrw=="
+  "resolved" "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.7.0.tgz"
+  "version" "5.7.0"
+  dependencies:
+    "graceful-fs" "^4.2.4"
+    "tapable" "^2.2.0"
+
 "enquirer@^2.3.5", "enquirer@^2.3.6", "enquirer@2.3.6":
   "integrity" "sha512-yjNnPr315/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ/odMA7cRkjhsPbltwBOrLg=="
   "resolved" "https://registry.yarnpkg.com/enquirer/-/enquirer-2.3.6.tgz"
@@ -7728,13 +7736,13 @@
   "resolved" "https://registry.yarnpkg.com/new-github-issue-url/-/new-github-issue-url-0.2.1.tgz"
   "version" "0.2.1"
 
-"next-transpile-modules@3.2.0":
-  "integrity" "sha512-JyT/FPH0mgLX8Pxv0pVfwqQv8flmjolDrqvtP6Ce228vVNPs7EmQd+qYR4kxRdgL2tMTkPeE98FG9qFabTxblA=="
-  "resolved" "https://registry.npmjs.org/next-transpile-modules/-/next-transpile-modules-3.2.0.tgz"
-  "version" "3.2.0"
+"next-transpile-modules@6.2.0":
+  "integrity" "sha512-THMOWVuLqA16LsdU84pY+pKFfTHVykV1sJz2w6ANMZ7/yjfISHVHDxUnnGRP2XRK9Q/Wl9KBb5AK+spWv6j7yw=="
+  "resolved" "https://registry.npmjs.org/next-transpile-modules/-/next-transpile-modules-6.2.0.tgz"
+  "version" "6.2.0"
   dependencies:
-    "micromatch" "^4.0.2"
-    "slash" "^3.0.0"
+    "enhanced-resolve" "^5.7.0"
+    "escalade" "^3.1.1"
 
 "next@10.0.7":
   "integrity" "sha512-We0utmwwfkvO12eLyUZd3tX9VLDE3FPpOaHpH3kqKdUTxJzUKt8FLBXCTm0mwsTKW5XColWG8mJvz2OLu3+3QA=="
@@ -10702,6 +10710,11 @@
     "lodash" "^4.17.20"
     "slice-ansi" "^4.0.0"
     "string-width" "^4.2.0"
+
+"tapable@^2.2.0":
+  "integrity" "sha512-FBk4IesMV1rBxX2tfiK8RAmogtWn53puLOQlvO8XuwlgxcYbP4mVPS9Ph4aeamSyyVjOl24aYWAuc8U5kCVwMw=="
+  "resolved" "https://registry.npmjs.org/tapable/-/tapable-2.2.0.tgz"
+  "version" "2.2.0"
 
 "tar-fs@^2.0.0", "tar-fs@^2.1.1":
   "integrity" "sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng=="
