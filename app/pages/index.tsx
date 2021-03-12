@@ -54,13 +54,10 @@ const UserInfo = () => {
 const Home: BlitzPage = () => {
   return (
     <div className="container">
-      <main>
-        <FullCalendar plugins={[dayGridPlugin]} initialView="dayGridMonth" />
-      </main>
+      <FullCalendar plugins={[dayGridPlugin]} initialView="dayGridMonth" />
 
       <style jsx global>{`
         @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;700&display=swap");
-
         html,
         body {
           padding: 0;

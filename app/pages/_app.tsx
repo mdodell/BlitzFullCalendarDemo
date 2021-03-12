@@ -10,6 +10,8 @@ import { ErrorBoundary } from "react-error-boundary"
 import { queryCache } from "react-query"
 import LoginForm from "app/auth/components/LoginForm"
 import "@fullcalendar/common/main.css"
+import "@fullcalendar/daygrid/main.css"
+import "@fullcalendar/timegrid/main.css"
 
 export default function App({ Component, pageProps }: AppProps) {
   const getLayout = Component.getLayout || ((page) => page)
