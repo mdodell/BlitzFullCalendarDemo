@@ -1,10 +1,9 @@
 const { sessionMiddleware, simpleRolesIsAuthorized } = require("blitz")
-const withTM = require("next-transpile-modules")(["@fullcalendar"])
 
-module.exports = withTM({
+module.exports = {
   middleware: [
     sessionMiddleware({
       isAuthorized: simpleRolesIsAuthorized,
     }),
   ],
-})
+}
