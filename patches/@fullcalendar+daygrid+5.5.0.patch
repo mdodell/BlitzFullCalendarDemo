@@ -1,0 +1,13 @@
+diff --git a/node_modules/@fullcalendar/daygrid/main.js b/node_modules/@fullcalendar/daygrid/main.js
+index c3e3d6b..dd5d710 100644
+--- a/node_modules/@fullcalendar/daygrid/main.js
++++ b/node_modules/@fullcalendar/daygrid/main.js
+@@ -3,7 +3,7 @@ FullCalendar v5.5.0
+ Docs & License: https://fullcalendar.io/
+ (c) 2020 Adam Shaw
+ */
+-import './main.css';
++//import './main.css';
+ 
+ import { createRef, getStickyHeaderDates, createElement, ViewRoot, SimpleScrollGrid, getStickyFooterScrollbar, DateComponent, renderScrollShim, buildNavLinkData, DayCellContent, Fragment, BaseComponent, createFormatter, setRef, DayCellRoot, WeekNumberRoot, RenderHook, buildSegTimeText, EventRoot, StandardEvent, sortEventSegs, addDays, intersectRanges, RefMap, isPropsEqual, getSegMeta, buildEventRangeKey, BgEvent, renderFill, PositionCache, mapHash, DelayedRunner, applyStyle, memoize, NowTimer, EventApi, Slicer, DayHeader, DaySeriesModel, DayTableModel, addWeeks, diffWeeks, DateProfileGenerator, identity, createPlugin } from '@fullcalendar/common';
+ import { __extends, __assign, __spreadArrays } from 'tslib';
